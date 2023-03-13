@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Amazon.com Inc. Java 17.0.3)
+[debug] Load.defaultLoad until apply took 668.9752ms
+[debug]           Load.loadUnit: plugins took 163.333ms
+[debug]           Load.loadUnit: defsScala took 0.8807ms
+[debug] [Loading] Scanning directory C:\Users\Sofia\Documents\Sviluppo di sistemi software (Viroli)\pps-22-23-lab02\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Sofia\Documents\Sviluppo di sistemi software (Viroli)\pps-22-23-lab02\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.1373 ms
+[debug]               Load.resolveProject(pps-22-23-lab02-build) took 58.7677ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id pps-22-23-lab02-build, base: C:\Users\Sofia\Documents\Sviluppo di sistemi software (Viroli)\pps-22-23-lab02\project, plugins: List(<none>))) took 123.1497ms
+[debug] [Loading] Done in C:\Users\Sofia\Documents\Sviluppo di sistemi software (Viroli)\pps-22-23-lab02\project, returning: (pps-22-23-lab02-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 191.8613ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.354ms
+[debug]         Load.loadUnit(file:/C:/Users/Sofia/Documents/Sviluppo%20di%20sistemi%20software%20(Viroli)/pps-22-23-lab02/project/, ...) took 373.5577ms
+[debug]       Load.apply: load took 557.8861ms
+[debug]       Load.apply: resolveProjects took 4.6597ms
+[debug]       Load.apply: finalTransforms took 86.1191ms
+[debug]       Load.apply: config.delegates took 14.5145ms
+[debug]       Load.apply: Def.make(settings)... took 510.9852ms
+[debug]       Load.apply: structureIndex took 120.1059ms
+[debug]       Load.apply: mkStreams took 1.8254ms
+[info] loading project definition from C:\Users\Sofia\Documents\Sviluppo di sistemi software (Viroli)\pps-22-23-lab02\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2365.5477ms
+[debug]     Load.loadUnit: defsScala took 0.0054ms
+[debug] [Loading] Scanning directory C:\Users\Sofia\Documents\Sviluppo di sistemi software (Viroli)\pps-22-23-lab02
+[debug]       Load.loadUnit: mkEval took 5.5548ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.8599 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 3.2785ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Sofia\Documents\Sviluppo di sistemi software (Viroli)\pps-22-23-lab02, plugins: List(<none>))) took 6.4159ms
+[debug] [Loading] Done in C:\Users\Sofia\Documents\Sviluppo di sistemi software (Viroli)\pps-22-23-lab02, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2635.4821ms
+[debug]     Load.loadUnit: cleanEvalClasses took 22.2085ms
+[debug]   Load.loadUnit(file:/C:/Users/Sofia/Documents/Sviluppo%20di%20sistemi%20software%20(Viroli)/pps-22-23-lab02/, ...) took 5025.7336ms
+[debug] Load.apply: load took 5068.4085ms
+[debug] Load.apply: resolveProjects took 0.1323ms
+[debug] Load.apply: finalTransforms took 15.3487ms
+[debug] Load.apply: config.delegates took 0.5929ms
+[debug] Load.apply: Def.make(settings)... took 88.1272ms
+[debug] Load.apply: structureIndex took 35.4694ms
+[debug] Load.apply: mkStreams took 0.0034ms
+[info] set current project to pps-code-a (in build file:/C:/Users/Sofia/Documents/Sviluppo%20di%20sistemi%20software%20(Viroli)/pps-22-23-lab02/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-dc636e8233963af8cd37
+[debug] Writing bsp connection file
+[info] started sbt server
